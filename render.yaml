@@ -6,3 +6,4 @@ services:
       branch: main
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run VGGface.py
+    publishDirectory: vggface.py
