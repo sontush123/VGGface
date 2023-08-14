@@ -1,0 +1,8 @@
+services:
+  - name: app
+    plan: starter
+    github:
+      repo: sontush123/VGGface
+      branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run VGGface.py
