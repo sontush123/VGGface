@@ -49,7 +49,7 @@ def recommend(feature_list,features):
 
 
 # Streamlit app
-st.title("Image Uploader and Saver")
+st.title("Which bollywood celebrity are you?")
 
 # File uploader
 image_file = st.file_uploader("Upload an Image", type=['png', 'jpeg', 'jpg'])
